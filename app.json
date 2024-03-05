@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Posturify",
+    "description": "App that focuses on correcting your posture",
+    "slug": "posturify",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.8.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/posturify.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6C24AA"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["galio-framework"]
+        }
+      },
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05ed8995-f9a9-49e7-b63b-034f4b98fd23"
+      }
+    },
+    "owner": "gogeorge"
+  }
+}
