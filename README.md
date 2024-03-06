@@ -6,6 +6,20 @@ Posturify is an app that allows users to maintain a correct posture while they a
 
 ## Installation
 
-To install the packages you need to run ``` npm install ```\
+To install the packages you need to run ``` npm install ```
 
 To run the app you need to run ``` npm run start ```
+
+It is crucial that you sign up for a Firebase API and include your API keys in a file named ``` firebase.js ``` before you run the ``` npm run start ``` command
+
+
+## Additional features
+
+The app includes the following pages
+
+- Login/Sign up
+- Home (Camera view)
+- Settings
+- User profile
+- Statistics
+- Leaderboard
